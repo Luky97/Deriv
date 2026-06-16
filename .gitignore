@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files and secrets
+.env
+.env.local
+.env.production
+
+# Python cache / virtual environments
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS / temp files
+.DS_Store
+*.swp
+*.swo
+*~
+.cache/
+.eslintcache
